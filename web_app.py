@@ -5,6 +5,10 @@
 #   opencv-python
 #   uvicorn
 
+# After installing the above requirements, run the server with:
+# `python web_app.py`. This will start a web app that can be
+# accessed at http://0.0.0.0:8000.
+
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 import uvicorn

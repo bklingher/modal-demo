@@ -3,6 +3,8 @@
 # This example demonstrates how to create a web endpoint that can handle visual
 # queries using Moondream-2.
 
+# Run it by running `modal deploy moondream`
+
 import io
 import base64
 from PIL import Image
